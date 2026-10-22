@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+data/
+
+# Local corpus and model outputs
+/data/
+/logs/
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.log
